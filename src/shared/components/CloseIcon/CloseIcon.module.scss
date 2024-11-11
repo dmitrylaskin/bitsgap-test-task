@@ -1,0 +1,16 @@
+.root {
+  display: inline-flex;
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.circle {
+  fill: #565861;
+}
+
+.cross {
+  stroke: #A2A7B9;
+  stroke-width: 1.5;
+}

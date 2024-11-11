@@ -1,2 +1,53 @@
-.root {
+.takeProfit {
+  background-color: #2b273b;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.addProfitTarget {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  gap: 15px;
+  padding: 0 10px;
+
+  span {
+    color: #0078ff;
+  }
+}
+
+.projectProfit {
+  display: flex;
+  width: 280px;
+  padding: 0 10px 5px;
+}
+
+.projectProfitTitle {
+  flex-grow: 1;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &:after {
+    content: '..........................................................';
+  }
+}
+
+.projectProfitValue {
+  flex-grow: 2;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.projectProfitCurrency {
+  color: #A2A7B9;
+  margin-left: 5px;
 }
